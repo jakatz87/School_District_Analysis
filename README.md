@@ -4,6 +4,7 @@ I have been tasked with assisting a city school district in analyzing student st
 
 ## Resources
 Data Source: new_full_student_data.csv
+
 Software: Anaconda Navigator, Jupyter Notebook, Python 3.7.6, Pandas
 
 ## Process
