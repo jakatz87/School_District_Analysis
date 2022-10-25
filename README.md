@@ -26,6 +26,7 @@ I checked for proper reading with `student_df.header()`
 ### 2. Prepare a cleaned version of the DataFrame by accounting for missing, incomplete, erroneous, and duplicated data
 I checked for any missing data with `student_df.isna().sum()`, and found there were few enough missing entries that removing them would not impact the validity of the results (around 0.5%).  
 I removed the entries with missing data using `student_df=student_df.dropna()`.
+
 I repeated with process with duplicate data using `student_df.duplicated().sum()` and `student_df=student_df.drop_duplicates()`.
 
 ### 3. Summarize key pieces of data with statistical analysis
