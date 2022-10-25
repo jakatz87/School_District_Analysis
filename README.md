@@ -28,7 +28,7 @@ I checked for any missing data with `student_df.isna().sum()`, and found there w
 
 I removed the entries with missing data using `student_df=student_df.dropna()`.
 
-I repeated with process with duplicate data using `student_df.duplicated().sum()` and `student_df=student_df.drop_duplicates()`.
+I repeated the process with duplicate data using `student_df.duplicated().sum()` and `student_df=student_df.drop_duplicates()`.
 
 ### 3. Summarize key pieces of data with statistical analysis
 I ensured each column had proper formatting and data type and found only one column, Grades, needed altering.  
@@ -87,9 +87,9 @@ Based on the data we were given, we have been able to provide information to the
 
 1. Does student population size impact test scores?  Based on the data, it seems that question depends on whether or not the school is Public or Charter.  However, when looking at student grade data, Public school 12th graders are performing well, while Charter school 11th graders are outperforming their Public school counterparts.  What is happening between 10th grade and 12th grade that can account for this?
 
-2. Does school budget impact test scores?  At first glance, it seems that Charter schools are performing equally well with fewer dollars.  There also seems to be a discrepancy in Public school funding as evidenced by the budget of the largest Public school, Wagner High School. Based on Reading scores and budget allocations, it worth investigating either what Wagner is doing or how more resources can be allocated to Wagner, or how other Public schools can maximize the use of their budgets.
+2. Does school budget impact test scores?  At first glance, it seems that Charter schools are performing equally well with fewer dollars.  There also seems to be a discrepancy in Public school funding as evidenced by the budget of the largest Public school, Wagner High School. Based on Reading scores and budget allocations, it is worth investigating either what Wagner is doing or how more resources can be allocated to Wagner, or how other Public schools can maximize the use of their budgets.
 
-3. What can be learned?  It seems there are extra questions that need to be asked at each school.  How is there such a discrepancy between Math scores and Reading scores?  What are Charter schools doing with Math? What are Public schools doing with Reading?
+3. What can be learned?  It seems there are extra questions that need to be asked at each school.  How is there such a discrepancy between Math scores and Reading scores?  What are Charter schools doing with Math? What are Public schools doing with Reading? What other factors, like student attendance or access to free and reduced meal plans, may be at play?
 
-What must remembered after all this provided data, the most important data cannot be stored in a CSV file: each student's story.  Education is about each student's journey through life and learning.  It is important to remember how narrow our picture of education is when we are attempting to measure it with test scores.
+What must be remembered after all this provided data, the most important data cannot be stored in a CSV file: each student's story.  Education is about each student's journey through life and learning.  It is important to remember how narrow our picture of education is when we are attempting to measure it with test scores.
 
