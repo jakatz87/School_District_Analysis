@@ -31,7 +31,10 @@ I removed the entries with missing data using `student_df=student_df.dropna()`.
 I repeated with process with duplicate data using `student_df.duplicated().sum()` and `student_df=student_df.drop_duplicates()`.
 
 ### 3. Summarize key pieces of data with statistical analysis
-I ensured each column had proper formatting and data type and found only one column, Grades, needed altering.  I used `student_df['grade']=student_df['grade'].str.replace('th', '')` and `student_df['grade']=student_df['grade'].astype(int)` to make sure I could work with the data appropriately.
+I ensured each column had proper formatting and data type and found only one column, Grades, needed altering.  
+
+I used `student_df['grade']=student_df['grade'].str.replace('th', '')` and `student_df['grade']=student_df['grade'].astype(int)` to make sure I could work with the data appropriately.
+
 I used `student_df.describe()` to get a general sense of the data:
 
 ![Step3image](https://github.com/jakatz87/School_District_Analysis/blob/main/Resources/Step3image.png)
