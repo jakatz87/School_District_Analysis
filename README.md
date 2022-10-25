@@ -92,4 +92,4 @@ Based on the data we were given, we have been able to provide information to the
 3. What can be learned?  It seems there are extra questions that need to be asked at each school.  How is there such a discrepancy between Math scores and Reading scores?  What are Charter schools doing with Math? What are Public schools doing with Reading?
 
 What must remembered after all this provided data, the most important data cannot be stored in a CSV file: each student's story.  Education is about each student's journey through life and learning.  It is important to remember how narrow our picture of education is when we are attempting to measure it with test scores.
-3
+
